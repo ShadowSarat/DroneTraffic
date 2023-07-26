@@ -72,7 +72,7 @@ def categorize_data(file_path, health_condition):
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('hero.html')
 
 @app.route('/result', methods=['POST'])
 def result():
