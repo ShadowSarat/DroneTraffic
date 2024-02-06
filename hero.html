@@ -106,7 +106,7 @@
 
         <!-- Red note warning -->
         <div class="red-note">
-            NOTE: Approval from the IPAMS is required before using this software. Use this data only for research and project development. We have the right to take legal action against you if the data is open-sourced.
+            NOTE: Approval from the Dronex is required before using this software. Use this data only for research and project development. We have the right to take legal action against you if the data is open-sourced.
         </div>
 
         <div class="upload-form" id="uploadForm">
@@ -118,11 +118,11 @@
                 </div>
                 <!-- Add the health condition select element -->
                 <div class="health-condition-container">
-                    <label class="health-condition-label" for="healthCondition">Health condition:</label>
+                    <label class="health-condition-label" for="healthCondition">aspect ration:</label>
                     <select class="health-condition-select" id="healthCondition">
-                        <option value="Normal">Normal</option>
-                        <option value="High BP">High BP</option>
-                        <option value="Low BP">Low BP</option>
+                        <option value="Normal">16:9</option>
+                        <option value="High BP">4:3</option>
+                        <option value="Low BP">1:1</option>
                     </select>
                 </div>
             </form>
@@ -190,7 +190,7 @@
 
                 reader.readAsText(file);
             } else {
-                alert("Unsupported file format. Please upload a CSV file.");
+                alert("Unsupported file format. Please upload a video file.");
             }
         }
 
